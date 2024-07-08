@@ -10,19 +10,19 @@ const navItems = [
   },
   {
     id: 1,
-    name: "skills",
+    name: "habilidades",
   },
-  {
-    id: 2,
-    name: "works",
-  },
+  // {
+  //   id: 2,
+  //   name: "trabalhos",
+  // },
   {
     id: 3,
-    name: "resume",
+    name: "resumo",
   },
   {
     id: 4,
-    name: "contact",
+    name: "contato",
   },
 ];
 
@@ -62,7 +62,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             to="/"
             className="text-3xl font-bold sm:text-3xl"
           >
-            John Doe.
+            Pedro Felipe<a className="text-purple-600 text-3xl">.</a>
           </Link>
         </div>
         <div
@@ -97,20 +97,14 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
                 <a
                   onClick={() => toggleNav(item.name)}
                   href={`#${item.name}`}
-                  className={`uppercase cursor-pointer text-black hover:text-yellow-600 font-bold ${
-                    item.name === activeIndex ? "text-yellow-600" : ""
+                  className={`uppercase cursor-pointer text-black hover:text-purple-600 font-bold ${
+                    item.name === activeIndex ? "text-purple-600" : ""
                   }`}
                 >
-                  {item.name}
+                  {item.name}<a className="text-purple-600 text-3xl">.</a>
                 </a>
               </li>
             ))}
-            <a
-              href=""
-              className="bg-black text-[1rem] text-white px-8 py-2 rounded-lg font-bold hover:text-yellow-400 md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
-            >
-              HIRE ME
-            </a>
           </ul>
         </div>
       </nav>

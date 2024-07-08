@@ -35,7 +35,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        "text-yellow-500": "#ffc312",
+        "text-purple-500": "#AC77F0",
       },
     },
   },
