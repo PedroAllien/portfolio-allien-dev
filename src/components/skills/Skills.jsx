@@ -14,6 +14,7 @@ import {
   SiUnity,
   SiDart,
   SiExpress,
+  SiMysql,
 } from "react-icons/si";
 import { GrCode } from "react-icons/gr";
 import { RiFlutterFill } from "react-icons/ri";
@@ -52,6 +53,7 @@ const Skills = ({ darkMode }) => {
                 <ProgressBar logo={<FaReact />} name={"React Js"} value={80} />
                 <ProgressBar logo={<SiNextdotjs />} name={"Next Js"} value={80} />
                 <ProgressBar logo={<RiFlutterFill />} name={"Flutter"} value={100} />
+                <ProgressBar logo={<SiMysql />} name={"MySQL"} value={70} />
               </div>
             </div>
           </div>
@@ -81,27 +83,13 @@ const Skills = ({ darkMode }) => {
               <SkillBox
                 className=""
                 logo={
-                  <GrCode/>
+                  <SiTypescript/>
                 }
                 black={"black"}
                 white={"white"}
-                skill={"C#"}
+                skill={"Typescript"}
               />
             </div>
-            <div className="first2 flex flex-col gap-10">
-                <SkillBox
-                  logo={<SiTypescript />}
-                  black={"white"}
-                  white={"black"}
-                  skill={"Typescript"}
-                />
-                <SkillBox
-                  logo={<SiUnity />}
-                  black={"white"}
-                  white={"black"}
-                  skill={"Unity"}
-                />
-              </div>
           </div>
         </div>
 

@@ -114,7 +114,7 @@ const Hero = () => {
             <img
               data-aos="fade-up"
               className=" h-[50%]  w-full object-cover md:h-[55%] md:m-auto sm:m-0"
-              src='https://i.ibb.co/6ZHcsjF/pd.png'
+              src='https://images-ext-1.discordapp.net/external/A-ZG-4npeTLbNIDWkPi_qDN-1VfjLfiUr0pme4_TxK4/https/i.ibb.co/xGxm5KF/Group-36693-1.png?format=webp&quality=lossless'
               // src={mine}
               alt="mine"
             />
